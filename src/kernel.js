@@ -10,9 +10,9 @@ let serverDate = { day: "", month: "", year: "", reference: "" };
 
 function initDateObject() {
     const date = new Date();
-    const day = serverDatabase.day ? serverDatabase.day : date.getDate();
-    const month = serverDatabase.month ? serverDatabase.month : date.getMonth() + 1;
-    const year = serverDatabase.year ? serverDatabase.year : date.getFullYear();
+    const day = serverDatabase.day ? serverDatabase.day : 14;
+    const month = serverDatabase.month ? serverDatabase.month : 4;
+    const year = serverDatabase.year ? serverDatabase.year : 2019;
     const reference = serverDatabase.reference ? serverDatabase.reference : "(Solar System Standard Time)";
     serverDate = { day, month, year, reference };
 }
