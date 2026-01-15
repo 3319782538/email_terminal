@@ -1,6 +1,7 @@
 {
+    "year": "2019",
     "serverAddress": "fbi.gov",
     "serverName": "Federal Bureau of Investigation",
     "iconName": "fbi.png",
-    "terminalID": "fbi"
+    "terminalID": "FBI-CCIS"
 }
