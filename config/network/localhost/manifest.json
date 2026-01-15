@@ -1,14 +1,20 @@
 {
     "serverAddress": "localhost",
-    "serverName": "Node Y56 Intranet",
+    "serverName": "克利夫兰警察局联合司法数据库",
     "iconName": "Moon-icon.png",
-    "terminalID": "Y56",
+    "terminalID": "CPD-终端14",
     "defaultUser": {
         "userId": "user",
         "password": "",
         "userName": "anonymous"
     },
     "initialHistory": {
+        "cipher": [
+            "login cipher@********"
+        ],
+        "miller": [
+            "login miller@********"
+        ],
         "user": [
             "login admin@admin"
         ],
